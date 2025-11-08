@@ -149,7 +149,7 @@ pytest tests/
 - Use unpacking: `first, *rest = items`
 - Use `pathlib` for file paths, not string concatenation
 - Use f-strings for formatting
-- Use `dataclasses` or `NamedTuple` for data structures
+- Use `BaseModel` for data structures
 - Use `__name__ == "__main__"` guards
 
 ❌ **Don't:**
